@@ -6,7 +6,7 @@ i2c = I2C(1, scl=Pin(15), sda=Pin(14), freq=400000)
 oled = SSD1306_I2C(128, 64, i2c)
 
 pin_a = Pin(8, Pin.IN, Pin.PULL_UP)
-# pin_b = Pin(22, Pin.IN, Pin.PULL_UP)
+#pin_b = Pin(22, Pin.IN, Pin.PULL_UP)
 
 encoder_value = 0
 last_state = pin_a.value()
