@@ -121,7 +121,7 @@ def calculate_hrv(data):
     print(f"RMSSD: {rmssd:.2f}")
     print(f"SDNN: {sdnn:.2f}")
 
-
+#NOT ACTUAL DATA, JUST MATH CAUSE I NEED PULSE SENSOR
 def print_hvr_data():
     print("Displaying HRV data...")
 
